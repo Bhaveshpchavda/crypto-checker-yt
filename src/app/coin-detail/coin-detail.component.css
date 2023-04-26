@@ -1,0 +1,91 @@
+/* coin-detail.component.css */
+.details {
+    width: 30%;
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    border-right: 2px solid rgba(255, 255, 255, 0.5);
+    flex-direction: column;
+}
+
+.details h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.details h6 {
+    width: 100%;
+    padding: 25px;
+    text-align: justify;
+    padding-top: 0;
+    padding-bottom: 15px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.img {
+    background: transparent;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.img img {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+.more-detail {
+    padding: 10px;
+    margin: 10px;
+    line-height: 50px;
+}
+
+.more-detail .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-right: 10px;
+}
+
+.more-detail .value {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.btn-custom {
+    color: #fff;
+    background: transparent;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.btn-custom:hover,
+.btn-custom:focus {
+    background: #009688;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border: 2px solid #009688;
+}
+
+* {
+    color: #fff;
+}

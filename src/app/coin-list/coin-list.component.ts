@@ -1,3 +1,4 @@
+// coin-list.component.ts
 import { CurrencyService } from './../service/currency.service';
 import { ApiService } from './../service/api.service';
 import { Component, OnInit, AfterViewInit, ViewChild } from '@angular/core';
@@ -8,7 +9,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-coin-list',
   templateUrl: './coin-list.component.html',
-  styleUrls: ['./coin-list.component.scss']
+  styleUrls: ['./coin-list.component.css']
 })
 export class CoinListComponent implements OnInit {
 

@@ -1,3 +1,4 @@
+// coin-detail.component.ts
 import { CurrencyService } from './../service/currency.service';
 import { ApiService } from './../service/api.service';
 import { Component, OnInit, ViewChild } from '@angular/core';
@@ -7,7 +8,7 @@ import {BaseChartDirective} from 'ng2-charts'
 @Component({
   selector: 'app-coin-detail',
   templateUrl: './coin-detail.component.html',
-  styleUrls: ['./coin-detail.component.scss']
+  styleUrls: ['./coin-detail.component.css']
 })
 export class CoinDetailComponent implements OnInit {
 

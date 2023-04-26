@@ -1,0 +1,112 @@
+/* coin-list.component.css */
+.header {
+    height: 40%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    }
+    
+    /* Heading styles */
+    .header h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 3.75rem;
+    line-height: 1.2;
+    letter-spacing: -0.0083em;
+    text-shadow: 2px 2px #000000;
+    }
+    
+    /* Subheading styles */
+    .header h6 {
+    color: darkgray;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.57;
+    letter-spacing: 0.00714em;
+    text-shadow: 1px 1px #000000;
+    }
+    
+    /* Banner section */
+    .banner {
+    background-image: url('../../assets/banner2.jpg');
+    height: 400px;
+    width: 100%;
+    }
+    
+    /* Subheading section */
+    .sub-header {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    }
+    
+    /* Card styles */
+    .card {
+    border: 0;
+    background: transparent;
+    color: #fff;
+    padding: 10px;
+    margin: 40px;
+    width: 100px;
+    height: 200px;
+    }
+    
+    /* Image styles */
+    .card img {
+    width: 70px;
+    margin: 0 auto;
+    }
+    
+    /* Heading styles */
+    .card h5 {
+    font-weight: 500;
+    text-shadow: 1px 1px #000000;
+    }
+    
+    /* Paragraph styles */
+    .card p {
+    font-weight: 700;
+    text-shadow: 1px 1px #000000;
+    }
+    
+    /* Table styles */
+    table {
+    width: 100%;
+    }
+    
+    
+    /* Form field styles */
+    .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+    }
+    
+    /* Table column styles */
+    td,
+    th {
+    width: 25%;
+    }
+    
+    /* Sorting header styles */
+    :host ::ng-deep .mat-sort-header-content {
+    color: #fff;
+    text-shadow: 1px 1px #000000;
+    }
+    
+    /* Paginator container styles */
+    :host ::ng-deep .mat-paginator-outer-container {
+    background-color: #2a0096;
+    }
+    
+    /* Table header row styles */
+    :host ::ng-deep tr.mat-header-row {
+    background-color: #2a0096;
+    }
+    
+    /* Table row styles */
+    :host ::ng-deep tr.mat-row {
+    height: 70px;
+    }
